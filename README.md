@@ -21,6 +21,8 @@ Open `http://localhost:8080/` at your browser and use.
 
 ## Example
 
+#### Input
+
 ```graphql
 {
   echo(message: "Hello World")
@@ -29,6 +31,21 @@ Open `http://localhost:8080/` at your browser and use.
   s3:sum(x: 2 y:60)
   s4:sum(x: 2 y:50)
   s5:sum(x: 2 y:100)
+}
+```
+
+#### Output
+
+```json
+{
+  "data": {
+    "echo": "Welcome, Dear Hello World",
+    "sum": 12,
+    "s2": 3,
+    "s3": 62,
+    "s4": 52,
+    "s5": 102
+  }
 }
 ```
 
