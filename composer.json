@@ -1,0 +1,14 @@
+{
+    "name": "max/first-php-graph-ql",
+    "type": "project",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Max Base",
+            "email": "MaxBaseCode@gmail.com"
+        }
+    ],
+    "require": {
+        "webonyx/graphql-php": "^14.8"
+    }
+}
