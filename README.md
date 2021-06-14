@@ -2,7 +2,7 @@
 
 GraphQL is a new generation of web services, it's best to maintain a big webservice for multi-platform and projects; In this repository, we design a full-feature **graphql server** using **PHP**.
 
-## GaphQL Shema
+## GraphQL Shema
 
 ```graphql
 type Query {
