@@ -10,11 +10,11 @@ $resolveSum = require "sum.php";
 
 try {
   $schema = file_get_contents('schema.graphql');
-  $schema    = BuildSchema::build($schema);
+  $schema = BuildSchema::build($schema);
   $rootValue = [
     'echo' => $resolveEcho,
     'sum' => $resolveSum,
-    'prefix' => 'You said: ',
+    'prefix' => '',
   ];
 
   if(isset($_POST["submit"])) {
@@ -50,6 +50,8 @@ try {
     "debug" => [
       "message" => $e->getMessage(),
     ],
+    "data"=>[],
   ];
 }
+
 echo json_encode($result);
