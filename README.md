@@ -13,6 +13,13 @@ type Query {
 
 ## Using
 
+Install **composer** and installing required packages:
+
+```
+sudo apt install composer
+composer install
+```
+
 ```
 php -S localhost:8080 ./graphql.php
 ```
